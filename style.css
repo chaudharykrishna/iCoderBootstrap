@@ -1,0 +1,39 @@
+.carousel-item img {
+    max-height: 445px;
+}
+@media screen and (max-width:385px) {
+
+.carousel-item img {
+    max-height: 250px !important;
+}
+.d-none {
+    display: unset!important;
+}
+.row {
+   flex-direction: column !important;
+
+   
+}
+.col-6 {
+    max-width: 100% !important;
+}
+.col-6 iframe {
+  width: 350px;
+}
+}
+@media screen and (min-width:350px) {
+
+    .carousel-item img {
+    max-height: 400px !important;
+}
+}
+@media screen and (max-width:720px) {
+    .d-none {
+        display: unset!important;
+    }
+}
+
+.img-fluid {
+    border-radius: 10px;
+    
+}
