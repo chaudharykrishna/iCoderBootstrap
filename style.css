@@ -19,6 +19,7 @@
 }
 .col-6 iframe {
   width: 350px;
+  margin-right: 3px;
 }
 }
 @media screen and (min-width:350px) {
